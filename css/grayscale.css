@@ -260,7 +260,7 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    padding-top: 250px;
 }
 
 .download-section {
@@ -374,3 +374,60 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+
+/* Additional CSS added by The4ndy */
+
+/*
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+*/
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fafafa;
+    background-color: #212121;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #E53935;
+    color:#000;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fafafa;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+
