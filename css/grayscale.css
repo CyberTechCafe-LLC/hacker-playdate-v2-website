@@ -148,7 +148,6 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/serverRoom-bg.png) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -401,6 +400,7 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+    margin-top: 50%;
 }
 
 ul.social-buttons li a:hover,
@@ -412,7 +412,7 @@ ul.social-buttons li a:active {
 
 .team-member {
     margin-bottom: 50px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .team-member img {
@@ -430,4 +430,21 @@ ul.social-buttons li a:active {
     margin-top: 0;
 }
 
-
+#bg {
+ background: url(../img/serverRoom-bg.png) no-repeat bottom center scroll;   
+}
+.text-blurb {
+    color: #bdbdbd;
+    font-family: "Ubuntu Condensed";
+    font-size: 18px;
+    font-weight: 300;
+    display:inline;
+    text-align: justify;
+    margin-bottom: 10%;
+}
+.blurb-title {
+    color: #fafafa;
+    font-family: "Ubuntu Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}

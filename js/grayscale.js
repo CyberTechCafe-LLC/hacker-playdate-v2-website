@@ -4,6 +4,35 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+//custom js (preloader script)
+
+
+// better image preloading @ https://perishablepress.com/press/2009/12/28/3-ways-preload-images-css-javascript-ajax/
+function preloader() {
+	if (document.getElementById) {
+		document.getElementById("bg").style.background = "url('../img/serverRoom-bg-red.png') no-repeat -9999px -9999px";
+	}
+}
+function addLoadEvent(func) {
+	var oldonload = window.onload;
+	if (typeof window.onload != 'function') {
+		window.onload = func;
+	} else {
+		window.onload = function() {
+			if (oldonload) {
+				oldonload();
+			}
+			func();
+		}
+	}
+}
+addLoadEvent(preloader);
+
+
+
+
+
+
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 50) {
@@ -175,4 +204,7 @@ function init() {
         map: map,
         icon: image
     });
+}
+function chbg(image) {
+    document.getElementById('bg').style.background = "url('" + image + "') no-repeat bottom center scroll";
 }
