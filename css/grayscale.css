@@ -431,6 +431,29 @@ ul.social-buttons li a:active {
     margin-top: 0;
 }
 
+/* added by scott */
+
+.team-member-nathan {
+    margin-bottom: 50px;
+    /*text-align: center;*/
+}
+
+.team-member-nathan img {
+    margin: 0 auto;
+    border: 0px solid #fafafa;
+}
+
+.team-member-nathan h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member-nathan p {
+    margin-top: 0;
+}
+
+
 #bg {
  background: url(../img/serverRoom-bg.png) no-repeat bottom center scroll;   
 }
